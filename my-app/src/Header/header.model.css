@@ -1,0 +1,55 @@
+.Header{
+    
+    background-color: #9bbbff;
+    padding: 20px 0;
+}
+
+.nav{
+    height: 100%;
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+}
+
+.nav-i{
+    text-decoration: none;
+    width: 70%;
+    margin: auto;
+    color: #000000;
+}
+
+.nav-flex-r{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    width: 30%;
+}
+
+.nav-i-r{
+    text-decoration: none;
+    margin: auto;
+    color: #000000;
+}
+
+.nav-i-r {
+    cursor: pointer;
+    position: relative;
+}
+
+.nav-i-r:not(:hover):after {
+    -webkit-transform: scalex(0);
+    transform: scalex(0);
+}
+
+.nav-i-r:after, .nav-i-r>button:after {
+    background: #000000;
+    bottom: -3px;
+    content: "";
+    height: 2px;
+    left: 0;
+    position: absolute;
+    transition: -webkit-transform .5s;
+    transition: transform .5s;
+    transition: transform .5s,-webkit-transform .5s;
+    width: 100%;
+}

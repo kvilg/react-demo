@@ -1,0 +1,10 @@
+.Footer{
+    background-color: #000000;
+    padding: 100px 0;
+    color: #ffffff;
+}
+
+.flex-footer{
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "RalewayRegular"; 
+  src: url("../public/fonts/Gropled-Bold.otf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+} 
+
+* {
+  font-family: "RalewayRegular"; 
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+.root {
+  height: 100%;
+}
+
+.container{
+  height: 100%;
+  width: 80%;
+  margin: auto;
+}
+
+.App {
+  height: 100%;
+  display: flex;
+  flex-direction: column; 
+}
+
+.Content {
+  flex: 1 0 auto;
+}
+
+.Footer {
+  flex-shrink: 0;
+}

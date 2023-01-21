@@ -1,0 +1,15 @@
+.AboutAs{
+    padding: 100px 0;
+}
+
+.text-logo-about-as{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+.text-main{
+    width: 60%;
+    margin: auto;
+    line-height: 1.3;
+}

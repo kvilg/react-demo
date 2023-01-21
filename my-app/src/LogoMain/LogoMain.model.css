@@ -1,0 +1,60 @@
+.intro{
+    width: 100%;
+    height: 50vh;
+    position: absolute;
+
+    background: url("../../public/gor5.jpg") center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.opasitiImg{
+    width: 100%;
+    height: 50vh;
+    position: absolute;
+
+    background-color: #1c315c7c;
+}
+
+.logo-main{
+    height: 50vh;
+    position:relative;
+    display:flex ;
+    justify-items: center;
+    justify-content: center;
+}
+
+.text-logo-m{
+    text-align: center;
+    margin: auto auto;
+    font-size: 40px;
+    position:relative;
+}
+
+.text-logo{
+    text-align: center;
+    margin: auto auto;
+    font-size: 32px;
+    position:relative;
+}
+
+.block-center{
+    height: 50%;
+    margin: auto 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.border-logo{
+    color: #ffffff;
+
+    width: 20%;
+    height: 50%;
+    margin: auto auto;
+    border: solid 3px #ffffff;
+
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
